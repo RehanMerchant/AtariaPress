@@ -16,11 +16,12 @@ import Image from "next/image"
   import Book3 from '@/app/asset/book3.webp'
   import Book4 from '@/app/asset/book4.webp'
   import Book5 from '@/app/asset/book5.webp'
-
+  import { FaArrowRightLong } from "react-icons/fa6";
+import { Button } from "./ui/button"
 const bookdata = [
    {
     id:"1",
-image:Book
+image:Book5
    },
    {
     id:"2",
@@ -36,7 +37,7 @@ image:Book
    },
    {
     id:"5",
-    image:Book5
+    image:Book
    },
 ]
 
@@ -49,6 +50,7 @@ const Bookscard = () => {
    <p className="md:text-xl font-medium text-lg cursor-pointer">
 Best Seller
    </p>
+
  </div>
   
     <div className='flex flex-col justify-center mt-6 mb-12 items-center'>
@@ -78,6 +80,17 @@ Best Seller
 
     </Carousel>
 
+        </div>
+        <div className="md:px-20 px-10 pb-12 border-l-8 border-rose-600">
+<p className="md:text-3xl text-2xl font-semibold">
+    Explore More and Novel From our Store.
+</p>
+<p className="text-muted-foreground text-sm">
+All books, Novel, Publicaitons and Article are Avaliable in our store, Feel free to  Explore.
+</p>
+<Button className="flex gap-1 mt-5">
+    Store <FaArrowRightLong className="text-basex"/>
+</Button>
         </div>
         </div>
   )

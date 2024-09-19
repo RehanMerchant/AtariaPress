@@ -25,10 +25,10 @@ Explore More
 </span>
   </p>
 </div>
-<div className="mt-4 px-2 py-5 md:pl-4 gap-y-5 flex flex-col">
+<div className="mt-4 px-2 py-5 md:pl-4 gap-y-5 flex flex-col ">
  
-<input placeholder="Blog Title" className="rounded-md outline-none text-sm bg-gray-100 p-2 w-[90%] md:w-72"/>
-<textarea placeholder="Blog content" className="rounded-md outline-none text-sm bg-gray-100 h-48 p-2 w-[100%] md:w-[380px]"/>
+<input placeholder="Blog Title" className="rounded-md outline-none text-sm bg-gray-100 p-2 w-full md:w-[50%]"/>
+<textarea placeholder="Blog content" className="rounded-md outline-none text-sm bg-gray-100 h-48 p-2 w-[100%] md:w-[50%]"/>
 <p className="hidden text-muted-foreground text-xs ml-2 md:flex items-center gap-1"><HiQuestionMarkCircle/>Note: The Blogging Editor is different than the above template</p>
 
 
