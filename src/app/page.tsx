@@ -1,3 +1,4 @@
+import BlogsDetails from "@/components/BlogsDetails";
 import BlogsSection from "@/components/BlogsSection";
 import Bookscard from "@/components/Bookscard";
 import DetailedSection from "@/components/DetailedSection";
@@ -18,6 +19,7 @@ export default function Home() {
       <BlogsSection/>
       <Playsection/>
       <Bookscard/>
+      <BlogsDetails/>
     </div>
   );
 }

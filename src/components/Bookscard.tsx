@@ -81,8 +81,8 @@ Best Seller
     </Carousel>
 
         </div>
-        <div className="md:px-20 px-10 pb-12 border-l-8 border-rose-600">
-<p className="md:text-3xl text-2xl font-semibold">
+        <div className="md:px-20 px-10 pb-12 border-l-8 border-rose-600 mb-10">
+<p className="md:text-2xl text-xl font-semibold">
     Explore More and Novel From our Store.
 </p>
 <p className="text-muted-foreground text-sm">
