@@ -16,7 +16,7 @@ const BlogsSection = () => {
 
 
   <p className="text-muted-foreground md:text-lg text-sm mt-4 md:max-w-[70%] max-w-[300px] px-2">
-  Here, you'll find a curated collection of thought-provoking articles, insightful analyses, and engaging stories that delve into a wide range of topics. Whether you're seeking expert opinions, practical tips, or simply a fresh perspective, our blog is your go-to destination.
+  Here, you all find a curated collection of thought-provoking articles, insightful analyses, and engaging stories that delve into a wide range of topics. Whether you are seeking expert opinions, practical tips, or simply a fresh perspective, our blog is your go-to destination.
 
   </p>
 </div>
@@ -39,7 +39,7 @@ Explore More
   
   
     <p className="text-muted-foreground md:text-lg text-sm mt-4 md:max-w-[70%] max-w-[300px] px-2">
-    Here, you'll find a curated collection of thought-provoking articles, insightful analyses, and engaging stories that delve into a wide range of topics. Whether you're seeking expert opinions, practical tips, or simply a fresh perspective, our blog is your go-to destination.
+    Here, you all find a curated collection of thought-provoking articles, insightful analyses, and engaging stories that delve into a wide range of topics. Whether you are seeking expert opinions, practical tips, or simply a fresh perspective, our blog is your go-to destination.
   
     </p>
   </div>

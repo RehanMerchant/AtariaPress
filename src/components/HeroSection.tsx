@@ -14,9 +14,9 @@ const HeroSection = () => {
     Ataria Press</span>
  </p>
  <p className='text-muted-foreground text-[17px]  md:max-w-[80%] max-w-[90%] mt-2'>
- We're building a new way for writers and readers to connect online and offline, 
+ We are building a new way for writers and readers to connect online and offline, 
  and help authors achieve their dreams with the freedom and flexibility that they deserve.<br/>
- Redirect to Dashboard to start selling/publishing your Book, Novel or Publications. Sign up if you dont have a Author's Account.
+ Redirect to Dashboard to start selling/publishing your Book, Novel or Publications. Sign up if you dont have a Authors Account.
 </p>
  
  <div className='mt-6 md:mt-8 flex gap-2 '>

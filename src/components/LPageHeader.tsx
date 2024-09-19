@@ -1,10 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import { MdOutlineLibraryBooks } from "react-icons/md";
 import Logo from "@/app/asset/logo.png";
 import Pen from "@/app/asset/pen.png";
 import { VscVerifiedFilled } from "react-icons/vsc";
-import { Input } from "./ui/input";
 import { Button } from "./ui/button";
 import { FaBook } from "react-icons/fa";
 import { RiQuillPenFill } from "react-icons/ri";
@@ -15,12 +13,9 @@ import { GrArticle } from "react-icons/gr";
 import {
   NavigationMenu,
   NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
-  NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
+  NavigationMenuTrigger
 } from "@/components/ui/navigation-menu";
 
 const LPageHeader = () => {
@@ -61,7 +56,7 @@ const LPageHeader = () => {
                     <div className="cursor-pointer hover:bg-gray-100 w-fit rounded-md px-2 py-1.5">
                       <p className="font-medium text-rose-600 ">Communities</p>
                       <p className="text-sm max-w-[300px] text-muted-foreground">
-                       Join/Collabrate your favourite author's Community  
+                       Join/Collabrate your favourite authors Community  
                       </p>
                     </div>
                     </div>

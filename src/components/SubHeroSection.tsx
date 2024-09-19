@@ -13,7 +13,7 @@ const SubHeroSection = () => {
 <div className="flex flex-col ml-5">
 
 <p className="md:text-[22px] text-lg font-semibold md:mt-2 text-gray-900 ">
-Author's Dashboard
+Authors Dashboard
 </p>
 <p className="text-sm mt-2 md:text-base text-muted-foreground md:max-w-[80%] ">
 A centralized platform for authors to manage their book submissions, track progress, and view analytics.
