@@ -2,7 +2,7 @@ import React from 'react'
 import { Button } from './ui/button'
 const DetailedSection = () => {
   return (
-    <div className='bg-gray-50 w-full mt-10 p-6  flex flex-col justify-center items-center'>
+    <div className='bg-gray-50 w-full mt-6 p-6  flex flex-col justify-center items-center'>
 <p className='font-semibold md:text-2xl text-xl text-center'>
 Kick Start your writing Journey with <span className='font-normal'>
 Ataria Press
