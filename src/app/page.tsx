@@ -1,3 +1,4 @@
+import BlogsSection from "@/components/BlogsSection";
 import DetailedSection from "@/components/DetailedSection";
 import FeaturedBook from "@/components/FeaturedBook";
 import HeroSection from "@/components/HeroSection";
@@ -10,9 +11,10 @@ export default function Home() {
     <div className="flex flex-col">
       <LPageHeader />
       <HeroSection />
-      <SubHeroSection />
       <FeaturedBook />
+      <SubHeroSection />
       <DetailedSection/>
+      <BlogsSection/>
     </div>
   );
 }

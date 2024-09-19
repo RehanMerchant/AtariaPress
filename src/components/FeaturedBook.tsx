@@ -1,13 +1,11 @@
 import Book from '@/app/asset/book.png'
+import { FaQuestionCircle } from "react-icons/fa";
 import Image from 'next/image'
 import { LiaStarSolid } from "react-icons/lia";
 import { Button } from './ui/button';
 const FeaturedBook = () => {
   return (
     <div className='bg-gray-50 relative md:mt-10 mt-4'>
-<div className='absolute px-3 py-0.5 bg-blue-500 text-xs text-white font-medium'>
-Featured
-</div>
 
     <div className='w-full md:flex p-10 gap-10  '>
 
@@ -20,9 +18,13 @@ Featured
 <p className='md:text-3xl text-2xl md:ml-8 font-semibold md:max-w-[80%]'>Read our exclusively Launched the whole collection of Sherlock Holmes.
     </p>
     <div className='md:ml-8 py-3'>
+        <p className='text-sm text-gray-600 flex gap-1 items-center'>
+            Featured <FaQuestionCircle className='text-xs cursor-pointer'/>
+        </p>
         <p className='text-xl font-medium'>
             Sherlock Holmes
         </p>
+        
         <p className='text-sm text-muted-foreground'>
             Arthur Conan Doyle
         </p>
