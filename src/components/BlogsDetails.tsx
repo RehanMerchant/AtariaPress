@@ -4,7 +4,7 @@ import Nobel from '@/app/asset/nobel.jpg'
 import Cup from '@/app/asset/Cup.png'
 import { Button } from "./ui/button";
 const BlogsDetails = () => {
-  return (
+  return ( 
     <div className="md:mt-4">
       <div className="flex items-center gap-2">
         <div className="md:h-8 md:w-4 h-6 w-3 bg-rose-600" />
