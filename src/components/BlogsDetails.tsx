@@ -69,7 +69,7 @@ const BlogsDetails = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> 
       <div className="md:px-20 md:mt-10 px-10 pb-12  mb-10">
 <p className="md:text-2xl text-xl font-semibold">
     Explore More Articles and News From our blogs Section.
