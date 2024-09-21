@@ -67,7 +67,7 @@ Publications and Research
     </li>
     <li className='mt-1'>
 Blogs
-    </li>
+    </li> 
     <li className='mt-1'>
 All Categories
     </li>
