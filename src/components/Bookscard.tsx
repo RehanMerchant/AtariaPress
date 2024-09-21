@@ -16,7 +16,6 @@ import Image from "next/image"
   import Book3 from '@/app/asset/book3.webp'
   import Book4 from '@/app/asset/book4.webp'
   import Book5 from '@/app/asset/book5.webp'
-  import { FaArrowRightLong } from "react-icons/fa6";
 import { Button } from "./ui/button"
 const bookdata = [
    {

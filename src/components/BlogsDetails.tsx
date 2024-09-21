@@ -25,10 +25,10 @@ const BlogsDetails = () => {
             </div>
             <div className="w-[70%] md:w-[90%]">
               <p className="font-medium text-[13px] ml-2 md:ml-0 md:text-lg md:mt-2 ">
-                Sugyansil Das Delivered another Flop this year.
+                Sugyansil Das Delivered another SuperHit this year.
               </p>
               <p className=" ml-2 mt-0.5 text-[11px] text-muted-foreground md:text-[14px] ">
-                Theaters are empty which signifies major setback to the Oscar winning Director, The entire movie collection is...
+                Theaters are Full which signifies yet another Superhit to the Oscar winning Director, The entire movie collection is...
               </p>
             </div>
           </div>
