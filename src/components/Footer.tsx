@@ -6,6 +6,8 @@ import { GrYoutube } from "react-icons/gr";
 import { FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
+    <>
+
     <div className='w-full h-auto py-8 bg-neutral-200 md:p-5 pt-4 flex justify-between pr-3'>
 <div className='flex'>
 <Image src={Logo} alt='' height={0} className='md:h-20 h-14 w-auto'/>
@@ -105,6 +107,19 @@ All Categories
 
 
         </div>
+        <div className='w-full bg-neutral-300 px-2 md:px-6 py-2 flex justify-between'>
+<div>
+<p className='md:text-xs text-[9px] font-medium '>
+Copyright © 2024 Ataria Press
+</p>
+</div>
+<div className='md:text-xs text-[9px] font-medium text-gray-800 flex gap-2'>
+<p className='cursor-pointer'>Term of use</p>
+<p className='cursor-pointer'>Privacy Policy</p>
+<p className='cursor-pointer'>Sitemap</p>
+</div>
+            </div>
+        </>
   )
 }
 

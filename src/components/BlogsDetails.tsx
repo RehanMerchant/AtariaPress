@@ -43,7 +43,7 @@ const BlogsDetails = () => {
             </div>
             <div className="w-[70%] md:w-[90%]">
               <p className="font-medium text-[13px] ml-2 md:ml-0 md:text-lg md:mt-2 ">
-               First Oscar winning director to win Nobel prize Sugyansil Das
+               First Oscar winning director to win Nobel prize Sugyansil Das.
               </p>
               <p className=" ml-2 mt-0.5 text-[11px] text-muted-foreground md:text-[14px] ">
                Sugyansil Das Achived nobel prize for the discovery of God, says God lies inside Big Bang...
