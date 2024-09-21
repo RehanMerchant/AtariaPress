@@ -81,15 +81,15 @@ Best Seller
     </Carousel>
 
         </div>
-        <div className="md:px-20 px-10 pb-12 border-l-8 border-rose-600 mb-10">
+        <div className="md:px-20 px-10 pb-12  mb-10">
 <p className="md:text-2xl text-xl font-semibold">
-    Explore More and Novel From our Store.
+    Explore More Books and Novel From our Store.
 </p>
 <p className="text-muted-foreground text-sm">
 All books, Novel, Publicaitons and Article are Avaliable in our store, Feel free to  Explore.
 </p>
-<Button className="flex gap-1 mt-5">
-    Store <FaArrowRightLong className="text-basex"/>
+<Button  className="flex gap-1 mt-5 ">
+    Store
 </Button>
         </div>
         </div>
