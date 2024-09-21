@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Logo from "@/app/asset/logo.png";
+import Logo from "@/app/asset/Logo.png";
 import Pen from "@/app/asset/pen.png";
 import { VscVerifiedFilled } from "react-icons/vsc";
 import { Button } from "./ui/button";

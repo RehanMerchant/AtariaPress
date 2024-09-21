@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Logo from  '@/app/asset/logo.png'
+import Logo from  '@/app/asset/Logo.png'
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { GrYoutube } from "react-icons/gr";
