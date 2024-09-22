@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import { FcGoogle } from "react-icons/fc";
 import { useAuthActions } from "@convex-dev/auth/react";
 import { SignInFlow } from '../types';
-import { signIn } from '../../../../convex/auth';
 
 interface SignInCardProps {
     setState: (state: SignInFlow) => void;
