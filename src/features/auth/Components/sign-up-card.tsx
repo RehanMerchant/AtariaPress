@@ -9,9 +9,9 @@ interface SignupCardProps {
 
 
 const Signupcard = ({ setState }: SignupCardProps) => {
-    const [pending, setPending] = useState(false);
+   // const [pending, setPending] = useState(false);
     const [name, setName] = useState("")
-    const [error, setError] = useState("close");
+   // const [error, setError] = useState("close");
     const [email, setEmail] = useState("");
     const [password, setPassowrd] = useState("");
     const [confirmpassword, setConfirmPassword] = useState("")
@@ -26,14 +26,14 @@ const Signupcard = ({ setState }: SignupCardProps) => {
 
       <form  className="space-y-4">
       <Input
-    disabled={pending}
+    disabled={false}
     value={name}
     onChange={(e)=>{setName(e.target.value)}}
     placeholder="Full name"
     required
     />
         <Input
-          disabled={pending}
+          disabled={false}
           value={email}
           onChange={(e) => {
             setEmail(e.target.value);
@@ -43,7 +43,7 @@ const Signupcard = ({ setState }: SignupCardProps) => {
           required
         />
         <Input
-          disabled={pending}
+          disabled={false}
           value={password}
           onChange={(e) => {
             setPassowrd(e.target.value);
@@ -53,7 +53,7 @@ const Signupcard = ({ setState }: SignupCardProps) => {
           required
         />
      <Input
-    disabled={pending}
+    disabled={false}
     value={confirmpassword}
     onChange={(e)=>{setConfirmPassword(e.target.value)}}
     type="password"
@@ -62,7 +62,7 @@ const Signupcard = ({ setState }: SignupCardProps) => {
     />
 
         <button
-          disabled={pending}
+          disabled={false}
           type="submit"
           className="bg-rose-500 py-2 w-full hover:bg-rose-500/80 text-sm disabled:opacity-70 text-white rounded-md flex justify-center items-center"
         >
@@ -73,7 +73,7 @@ const Signupcard = ({ setState }: SignupCardProps) => {
       <div className="w-full mt-5 mb-4 border-t-2 border-gray-300" />
       <div className="pb-3 relative">
         <button
-          disabled={pending}
+          disabled={false}
           onClick={() => {}}
           className="w-full py-2.5 hover:bg-gray-200 border-[2px] rounded-md bg-muted disabled:opacity-70 font-medium text-sm flex gap-2 justify-center"
         >
