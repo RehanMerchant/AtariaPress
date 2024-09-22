@@ -2,6 +2,7 @@
 import { FaCircleNodes } from "react-icons/fa6";
 import { Button } from "./ui/button";
 import { HiQuestionMarkCircle } from "react-icons/hi";
+import Link from "next/link";
 
 const BlogsSection = () => {
   
@@ -36,9 +37,12 @@ Explore More
 
 
 <div className="md:mt-5 mt-3">
-<Button size={"sm"}>
+  <Link href="/dashboard">
+  <Button size={"sm"}>
 Write Blogs
 </Button>
+  </Link>
+
 </div>
 
         </div>

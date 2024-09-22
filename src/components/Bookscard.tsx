@@ -17,6 +17,7 @@ import Image from "next/image"
   import Book4 from '@/app/asset/book4.webp'
   import Book5 from '@/app/asset/book5.webp'
 import { Button } from "./ui/button"
+import Link from "next/link"
 const bookdata = [
    {
     id:"1",
@@ -87,9 +88,12 @@ Best Seller
 <p className="text-muted-foreground text-sm">
 All books, Novel, Publicaitons and Article are Avaliable in our store, Feel free to  Explore.
 </p>
+<Link href="/store">
 <Button  className="flex gap-1 mt-5 ">
     Store
 </Button>
+</Link>
+
         </div>
         </div>
   )

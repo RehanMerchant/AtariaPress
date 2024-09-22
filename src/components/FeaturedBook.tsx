@@ -3,6 +3,7 @@ import { FaQuestionCircle } from "react-icons/fa";
 import Image from 'next/image'
 import { LiaStarSolid } from "react-icons/lia";
 import { Button } from './ui/button';
+import Link from 'next/link';
 const FeaturedBook = () => {
   return (
     <div className='bg-gray-50 relative md:mt-10 mt-4'>
@@ -45,9 +46,11 @@ const FeaturedBook = () => {
     </div>
     </div>
     <div className='md:ml-6 mt-6 '>
+        <Link href="/store">
         <Button className='md:ml-2'>
            Buy Now
         </Button>
+        </Link>
     </div>
   </div>
         </div>

@@ -2,19 +2,27 @@ import { Input } from '@/components/ui/input';
 import React, { useState } from 'react'
 import { FcGoogle } from "react-icons/fc";
 import { SignInFlow } from '../types';
-
+import { useAuthActions } from "@convex-dev/auth/react";
 interface SignupCardProps {
     setState: (state: SignInFlow) => void;
   }
 
 
 const Signupcard = ({ setState }: SignupCardProps) => {
-   // const [pending, setPending] = useState(false);
+    const [pending, setPending] = useState(false);
     const [name, setName] = useState("")
    // const [error, setError] = useState("close");
     const [email, setEmail] = useState("");
     const [password, setPassowrd] = useState("");
     const [confirmpassword, setConfirmPassword] = useState("")
+    const { signIn } = useAuthActions();
+    const OnproviderSignin = (value:"google")=>{
+      setPending(true)
+    signIn(value)
+    .finally(()=>{
+      setPending(false)
+    })
+    }
   return (
     <div className="bg-white shadow-lg p-4 h-auto md:w-[400px] w-full rounded-md">
     <div className=" text-2xl font-semibold ">Signup to continue</div>
@@ -26,14 +34,14 @@ const Signupcard = ({ setState }: SignupCardProps) => {
 
       <form  className="space-y-4">
       <Input
-    disabled={false}
+    disabled={true}
     value={name}
     onChange={(e)=>{setName(e.target.value)}}
     placeholder="Full name"
     required
     />
         <Input
-          disabled={false}
+          disabled={true}
           value={email}
           onChange={(e) => {
             setEmail(e.target.value);
@@ -43,7 +51,7 @@ const Signupcard = ({ setState }: SignupCardProps) => {
           required
         />
         <Input
-          disabled={false}
+          disabled={true}
           value={password}
           onChange={(e) => {
             setPassowrd(e.target.value);
@@ -53,7 +61,7 @@ const Signupcard = ({ setState }: SignupCardProps) => {
           required
         />
      <Input
-    disabled={false}
+    disabled={true}
     value={confirmpassword}
     onChange={(e)=>{setConfirmPassword(e.target.value)}}
     type="password"
@@ -62,7 +70,7 @@ const Signupcard = ({ setState }: SignupCardProps) => {
     />
 
         <button
-          disabled={false}
+          disabled={true}
           type="submit"
           className="bg-rose-500 py-2 w-full hover:bg-rose-500/80 text-sm disabled:opacity-70 text-white rounded-md flex justify-center items-center"
         >
@@ -70,11 +78,11 @@ const Signupcard = ({ setState }: SignupCardProps) => {
         </button>
        
       </form>
-      <div className="w-full mt-5 mb-4 border-t-2 border-gray-300" />
+      <div className="w-full h-0.5 mt-5 mb-5 bg-gray-200" />
       <div className="pb-3 relative">
         <button
-          disabled={false}
-          onClick={() => {}}
+          disabled={pending}
+          onClick={() => OnproviderSignin("google")}
           className="w-full py-2.5 hover:bg-gray-200 border-[2px] rounded-md bg-muted disabled:opacity-70 font-medium text-sm flex gap-2 justify-center"
         >
           <FcGoogle className="size-5 absolute top-2.5 left-2.5" />

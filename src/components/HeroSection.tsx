@@ -5,6 +5,7 @@ import { Button } from './ui/button'
 import { FaAngleRight } from "react-icons/fa6";
 import HeroImage from '@/app/asset/hero image.png'
 import Image from 'next/image';
+import Link from 'next/link';
 const HeroSection = () => {
   return (
     <div className='md:flex justify-between pb-8 pt-12'>
@@ -20,9 +21,12 @@ const HeroSection = () => {
 </p>
  
  <div className='mt-6 md:mt-8 flex gap-2 '>
-<Button size={"sm"}  className='flex gap-1 items-center' >
+  <Link href="/dashboard">
+  <Button size={"sm"}  className='flex gap-1 items-center' >
    Dashboard <FaAngleRight/>
 </Button>
+  </Link>
+
  </div>
 </div>
 <div className='w-1/2 md:flex hidden items-center justify-center pr-8 '>

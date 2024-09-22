@@ -3,6 +3,7 @@ import Image from "next/image";
 import Nobel from '@/app/asset/nobel.jpg'
 import Cup from '@/app/asset/Cup.png'
 import { Button } from "./ui/button";
+import Link from "next/link";
 const BlogsDetails = () => {
   return ( 
     <div className="md:mt-4">
@@ -77,9 +78,12 @@ const BlogsDetails = () => {
 <p className="text-muted-foreground text-sm">
 Recent News, Article and Blogs are Avaliable in our blogs , Explore for Free.
 </p>
+<Link href="/blogs">
 <Button  className="flex gap-1 mt-5 ">
     Blogs
 </Button>
+</Link>
+
         </div>
     </div>
   );

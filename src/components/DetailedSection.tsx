@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from './ui/button'
+import Link from 'next/link'
 const DetailedSection = () => {
   return (
     <div className='bg-gray-50 w-full mt-6 p-6  flex flex-col justify-center items-center'>
@@ -12,9 +13,12 @@ Ataria Press
 100000+ Writers have sucessfully Bootstraped their Journey with us.
 </p>
 <div className='flex  justify-center mt-4'>
-<Button size={"sm"}>
+  <Link href="/dashboard">
+  <Button size={"sm"}>
 Join Us
 </Button>
+  </Link>
+
 </div>
     </div>
   

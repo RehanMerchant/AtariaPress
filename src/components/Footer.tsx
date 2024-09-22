@@ -16,9 +16,6 @@ const Footer = () => {
     Ataria<span className='font-medium text-rose-500'>Press</span>
 </p>
 <p className='text-[10px] md:text-xs text-muted-foreground font-medium -mt-1'>All Rights Reserved</p>
-<p className='text-[10px] md:text-xs text-muted-foreground font-medium'>
-©2024
-</p>
 </div>
 
 </div>
@@ -109,7 +106,7 @@ All Categories
         </div>
         <div className='w-full bg-neutral-300 px-2 md:px-6 py-2 flex justify-between'>
 <div>
-<p className='md:text-xs text-[9px]  '>
+<p className='md:text-xs text-[9px] flex  '>
 Copyright © 2024 Ataria Press
 </p>
 </div>
