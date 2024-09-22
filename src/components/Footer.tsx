@@ -109,7 +109,7 @@ All Categories
         </div>
         <div className='w-full bg-neutral-300 px-2 md:px-6 py-2 flex justify-between'>
 <div>
-<p className='md:text-xs text-[9px] font-medium '>
+<p className='md:text-xs text-[9px]  '>
 Copyright © 2024 Ataria Press
 </p>
 </div>
